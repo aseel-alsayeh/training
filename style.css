@@ -1,0 +1,45 @@
+nav ul li  { 
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+
+}
+nav ul {
+    float: right;
+    line-height: 1px;
+}
+
+nav h4 {
+    display:inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    width: 1340px;
+    margin-top: 0px;
+}
+section div{
+    display: inline-block;
+    width: 600px;
+    border: solid 2px red;
+    line-height: 50px;
+    margin-left: 20px;
+}
+section img{
+    display: inline-block;
+
+
+}
+section{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h2 , h3{
+    text-align:center;
+}
