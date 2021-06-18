@@ -1,0 +1,19 @@
+
+<script>
+let i=0;
+let images=[];
+let time= 1000;
+images[0]="hamburger.jpg";
+images[1]="tablesetting2.jpg";
+images[2]="bag.jpg";
+
+function changeImg(){
+    for (let index = 0; index < images.length; index++) {    
+        document.getElementById("slide").src =images[index];
+    }
+    
+}
+setTimeout( changeImg() , time);
+</script>
+
+<img id="slide" width="600px" height="300px">
